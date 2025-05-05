@@ -85,19 +85,19 @@ importers:
         specifier: ~0.76.3
         version: 0.76.9(@babel/core@7.27.1)(@babel/preset-env@7.27.1(@babel/core@7.27.1))
       '@storybook/addon-essentials':
-        specifier: ^8.6.11
+        specifier: 8.6.12
         version: 8.6.12(@types/react@19.0.0)(storybook@8.6.12(prettier@2.8.8))
       '@storybook/addon-interactions':
         specifier: ^8.6.11
         version: 8.6.12(storybook@8.6.12(prettier@2.8.8))
       '@storybook/core-server':
-        specifier: ^8.6.11
+        specifier: 8.6.12
         version: 8.6.12(storybook@8.6.12(prettier@2.8.8))
       '@storybook/jest':
         specifier: ^0.2.3
         version: 0.2.3
       '@storybook/react-vite':
-        specifier: ^8.6.11
+        specifier: 8.6.12
         version: 8.6.12(@storybook/test@8.6.12(storybook@8.6.12(prettier@2.8.8)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(rollup@4.40.1)(storybook@8.6.12(prettier@2.8.8))(typescript@5.7.3)(vite@6.3.5(@types/node@20.17.32)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.1))
       '@storybook/test-runner':
         specifier: ^0.22.0
@@ -202,7 +202,7 @@ importers:
         specifier: ~18.3.1
         version: 18.3.1(react@19.1.0)
       storybook:
-        specifier: ^8.6.11
+        specifier: 8.6.12
         version: 8.6.12(prettier@2.8.8)
       tailwindcss:
         specifier: 3.4.3
