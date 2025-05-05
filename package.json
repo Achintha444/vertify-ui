@@ -13,6 +13,9 @@
   },
   "devDependencies": {
     "@nx/js": "20.8.1",
+    "@nx/react": "^20.8.1",
+    "@nx/react-native": "^20.8.1",
+    "@nx/storybook": "^20.8.1",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
