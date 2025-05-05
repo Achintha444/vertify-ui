@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./design/variants/react"
+    },
+    {
+      "path": "./design/variants/react-native"
     }
   ],
   "ts-node": {
