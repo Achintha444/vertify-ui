@@ -30,7 +30,7 @@
           "watchDepsName": "watch-deps"
         }
       },
-      "exclude": ["design/shared-api/*"]
+      "exclude": ["design/shared-api/*", "design/primitives/*"]
     },
     {
       "plugin": "@nx/react/router-plugin",
@@ -88,7 +88,7 @@
     },
     {
       "plugin": "@nx/js/typescript",
-      "include": ["design/shared-api/*"],
+      "include": ["design/shared-api/*", "design/primitives/*"],
       "options": {
         "typecheck": {
           "targetName": "typecheck"

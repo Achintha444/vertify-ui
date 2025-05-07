@@ -11,6 +11,9 @@
     },
     {
       "path": "./design/shared-api"
+    },
+    {
+      "path": "./design/primitives"
     }
   ],
   "ts-node": {
