@@ -29,7 +29,8 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": ["design/shared-api/*"]
     },
     {
       "plugin": "@nx/react/router-plugin",
@@ -83,6 +84,15 @@
         "buildIosTargetName": "build-ios",
         "buildAndroidTargetName": "build-android",
         "syncDepsTargetName": "sync-deps"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["design/shared-api/*"],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],

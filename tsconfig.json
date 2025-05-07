@@ -8,6 +8,9 @@
     },
     {
       "path": "./design/variants/react-native"
+    },
+    {
+      "path": "./design/shared-api"
     }
   ],
   "ts-node": {
