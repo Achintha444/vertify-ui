@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../primitives"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

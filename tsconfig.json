@@ -20,7 +20,7 @@
     "compilerOptions": {
       "module": "commonjs",
       "moduleResolution": "node10",
-      "customConditions": null
+      "customConditions": null,
     }
   }
 }
