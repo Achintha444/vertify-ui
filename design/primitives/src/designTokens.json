@@ -1,0 +1,55 @@
+{
+    "colors": {
+        "primary": {
+            "default": "#0C6960",
+            "light": "#129789",
+            "dark": "#073B36"
+        },
+        "secondary": {
+            "default": "#56EBDC",
+            "light": "#B1F6EF",
+            "lighter": "#DFFBF8",
+            "dark": "#17C3B2"
+        },
+        "text": {
+            "primary": "#020E0C",
+            "secondary": {
+                "default": "#B9C6BE",
+                "light": "#D5DDD8",
+                "dark": "#9DAFA4",
+                "darker": "#809789"
+            }
+        },
+        "warning": {
+            "default": "#FFCB77",
+            "lighter": "#FFF5E4"
+        },
+        "background": {
+            "default": "#FAFEFE"
+        }
+    },
+    "radius": {
+        "default": {
+            "value": 8,
+            "unit": "px"
+        }
+    },
+    "typography": {
+        "subtitle": {
+            "default": {
+                "letterSpacing": "0.1%",
+                "lineHeight": "100%",
+                "fontSize": "14px"
+            },
+            "subtitle1": {
+                "fontType": "Futura BK BT"
+            },
+            "subtitle2": {
+                "fontType": "Futura Lt BT"
+            },
+            "subtitle3": {
+                "fontType": "Futura Md BT"
+            }
+        }
+    }
+}
