@@ -16,6 +16,7 @@
             "secondary": {
                 "default": "#B9C6BE",
                 "light": "#D5DDD8",
+                "lighter": "#F4F8F6",
                 "dark": "#9DAFA4",
                 "darker": "#809789"
             }

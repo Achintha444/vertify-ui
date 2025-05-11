@@ -25,6 +25,7 @@ module.exports = {
         'text-primary': designTokens.colors.text.primary,
         'text-secondary-default': designTokens.colors.text.secondary.default,
         'text-secondary-light': designTokens.colors.text.secondary.light,
+        'text-secondary-lighter': designTokens.colors.text.secondary.lighter,
         'text-secondary-dark': designTokens.colors.text.secondary.dark,
         'text-secondary-darker': designTokens.colors.text.secondary.darker,
 
@@ -46,11 +47,37 @@ module.exports = {
         subtitle: designTokens.typography.subtitle.default.letterSpacing,
       },
       fontFamily: {
-        subtitle1: [designTokens.typography.subtitle.subtitle1.fontType],
-        subtitle2: [designTokens.typography.subtitle.subtitle2.fontType],
-        subtitle3: [designTokens.typography.subtitle.subtitle3.fontType],
+        subtitle1: [designTokens.typography.subtitle.subtitle1.fontType, 'sans-serif'],
+        subtitle2: [designTokens.typography.subtitle.subtitle2.fontType, 'sans-serif'],
+        subtitle3: [designTokens.typography.subtitle.subtitle3.fontType, 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // Add a custom plugin for comprehensive typography classes
+    function({ addComponents }) {
+      const typographyComponents = {
+        '.typography-subtitle1': {
+          fontFamily: `"${designTokens.typography.subtitle.subtitle1.fontType}", sans-serif`,
+          fontSize: designTokens.typography.subtitle.default.fontSize,
+          lineHeight: designTokens.typography.subtitle.default.lineHeight,
+          letterSpacing: designTokens.typography.subtitle.default.letterSpacing,
+        },
+        '.typography-subtitle2': {
+          fontFamily: `"${designTokens.typography.subtitle.subtitle2.fontType}", sans-serif`,
+          fontSize: designTokens.typography.subtitle.default.fontSize,
+          lineHeight: designTokens.typography.subtitle.default.lineHeight,
+          letterSpacing: designTokens.typography.subtitle.default.letterSpacing,
+        },
+        '.typography-subtitle3': {
+          fontFamily: `"${designTokens.typography.subtitle.subtitle3.fontType}", sans-serif`,
+          fontSize: designTokens.typography.subtitle.default.fontSize,
+          lineHeight: designTokens.typography.subtitle.default.lineHeight,
+          letterSpacing: designTokens.typography.subtitle.default.letterSpacing,
+        },
+      };
+      
+      addComponents(typographyComponents);
+    },
+  ],
 };

@@ -1,4 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Futura BK BT';
+  src: url('./assets/fonts/Futura-BK-BT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('./assets/fonts/Futura-Md-BT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Lt BT';
+  src: url('./assets/fonts/Futura-Lt-BT.ttf') format('truetype');
+}

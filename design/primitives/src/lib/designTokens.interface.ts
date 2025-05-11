@@ -18,6 +18,7 @@ export interface ColorTokens {
         secondary: {
             default: string;
             light: string;
+            lighter: string;
             dark: string;
             darker: string;
         };
