@@ -1,5 +1,6 @@
 // design/variants/react/Button.tsx
 import React from 'react';
+import { designTokens } from '@vertifyui/design/primitives';
 
 const variantClasses: Record<string, string> = {
   primary: 'bg-blue-600 text-white hover:bg-blue-700',
